@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Task №7</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="main">
+        <input class="insertArea" type='number' id="input" min="1" max="20"> <!--минимальное и максимальное количество фигур(1-20)-->
+    </div>
+    <input type='button' value='Квадрат' onclick='createShape("square")'>
+    <input type='button' value='Треугольник' onclick='createShape("triangle")'>
+    <input type='button' value='Круг' onclick='createShape("circle")'>
+    <div id="shape"></div>
+    <script src="script.js"></script>
+</body>
+</html>
